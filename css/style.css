@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+p {font-family: Monserrat;}
+
+.logo_container {float: left;
+width: 85;
+height: 120;}
