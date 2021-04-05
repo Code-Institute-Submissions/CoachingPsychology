@@ -2,13 +2,12 @@
 
 h1 {font-family: Roboto;
 font-size: 12px;}
-
-
-.logo {
-    background: url("../images/Coaching-Psychology-logo-RGB-01.png");
+#hero-image{
+    background: url("../images/Alisonreardon.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-   
+    height: 100px;
+    width: 100%;   
 }
+.container-fluid {width: 800px;}
