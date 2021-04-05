@@ -31,6 +31,7 @@ span{letter-spacing: 2pt;}
     color: rgb(106, 106, 165);
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -42,16 +43,23 @@ ul {
   font-family: Roboto;
 }
 
+#logo-image{
+    background: url("../images/Coaching-Psychology-logo-RGB-01.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 150px;
+    height: 100px;
+    width: 100px;
+          }
+
 #hero-image{
     background: url("../images/Alisonreardon.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: cover;
     height: 800px;
     width: 648px;
-    margin-top: 50px;
-    margin-left: 50px;
     
 }
 .container {
