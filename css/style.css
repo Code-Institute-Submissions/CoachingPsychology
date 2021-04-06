@@ -6,6 +6,11 @@ h1, h2 {font-family: Roboto;
     font: Roboto;
 }
 
+.top-contact-style {
+    line-height: 75px;
+    background-color: blue;
+}
+
 span{letter-spacing: 2pt;}
 
 .top-contact-header {
