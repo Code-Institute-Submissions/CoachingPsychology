@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
+
+
 body{font-family:Roboto;}
 
 h1, h2 {font-family: Roboto;
@@ -7,8 +9,9 @@ h1, h2 {font-family: Roboto;
 }
 
 .top-contact-style {
-    line-height: 75px;
+    line-height: 100px;
     background-color: blue;
+    width: 100%;
 }
 
 span{letter-spacing: 2pt;}
@@ -19,6 +22,7 @@ span{letter-spacing: 2pt;}
     line-height: 1em;
     font-size: medium;
     text-align: center;
+    width: 100%;
 }
 
 .social-networks{
@@ -48,6 +52,22 @@ ul {
   font-family: Roboto;
 }
 
+.container-image-nav{
+    width: 100%;
+    background-color: blue;
+}
+
+.container-image-hero {background-color: blue;
+    width: 100%;
+}
+
+#nav-menu{
+    background-color: blue;
+    width: 100%;
+}
+#nav-menu ul {
+    float:right;}
+
 #logo-image{
     background: url("../images/Coaching-Psychology-logo-RGB-01.png");
     background-position: left;
@@ -55,7 +75,7 @@ ul {
     background-size: cover;
     background-size: 150px;
     height: 100px;
-    width: 100px;
+    width: 300px;
           }
 
 #hero-image{
@@ -76,7 +96,7 @@ ul {
 }
 
 #menu{
-    font-size: 110%;
+    font-size: 120%;
     list-style-type: none;
     letter-spacing: 4px;
 }
