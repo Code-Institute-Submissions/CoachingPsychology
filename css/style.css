@@ -12,11 +12,11 @@ h1, h2 {font-family: Montserrat;
 
 p {font-family: Roboto;
 font-size: 16px;
-font-color: #fffff;}
+}
 
 .top-contact-style {
+    font-family: Roboto;
     line-height: 100px;
-    background-color: #007CC7;
     width: 100%;
    
 }
@@ -28,9 +28,9 @@ span{letter-spacing: 2pt;}
     margin-top: 0%;
     line-height: 2em;
     font-size: large;
-    text-align: center;
+    text-align: right;
     width: 100%;
-    color: #FFFFFF;
+    color: blue;
 }
 
 
@@ -58,7 +58,7 @@ ul {
 
 .nav-item {
   display: inline;
-  font-family: Montserrat;
+  font-weight: bold;
 }
 
 .container-image-nav{
@@ -74,8 +74,6 @@ ul {
     background-color: #FFFFFF;
     width: 100%;
 }
-#nav-menu ul {
-    float:left;}
 
 #logo-image{
     background: url("../images/Coaching-Psychology-logo-RGB-01.png");
@@ -127,7 +125,10 @@ ul {
 
 #logo, #menu{
     line-height: 75px;
+    Margin-left: 0px
 }
+
+.navbar{font-family: Roboto;}
 
 #menu li {
     float: left;
@@ -143,4 +144,9 @@ ul {
     border-bottom: 1px solid #777777;
 }
 
-.home-services{margin:50px;}
+.home-services{margin-top:50px;
+text-align: left;}
+
+.home-services h2 {font-size: 16pt;}
+
+.home-services p{font-size: 12pt;}
