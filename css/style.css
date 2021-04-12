@@ -10,7 +10,8 @@ h1, h2 {font-family: Montserrat;
 }
 
 p.italic{
-    font-style: italic;
+    font-style: italic
+    
 }
 
 p.home-pitch{font-size: 150%;}
@@ -32,7 +33,6 @@ span{letter-spacing: 2pt;}
     text-align: right;
     width: 100%;
     }
-
 
 .social-networks{
     text-align: left;
