@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+</style>
 
 
 body{
-    font-family:Roboto, sans-serif;}
+    font-family:Lato, sans-serif;}
 
-h1, h2 {font-family: Montserrat;
-    font: Roboto;
+h1, h2 {font-family: 'Lato', sans-serif;
+    
 }
+
+p{font-family: 'Lato', sans-serif;}
 
 p.italic{
     font-style: italic
     
 }
 
-p.home-pitch{font-size: 150%;}
+p.home-pitch{
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 130%;}
 
 .top-contact-style {
-    font-family: Roboto;
+    font-family: Open-sans;
     line-height: 100px;
     width: 100%;
    
@@ -26,7 +36,7 @@ p.home-pitch{font-size: 150%;}
 span{letter-spacing: 2pt;}
 
 .top-contact-header {
-    font-family: Monserat;
+    font-family: Open-sans;
     margin-top: 0%;
     line-height: 2em;
     font-size: large;
@@ -34,24 +44,7 @@ span{letter-spacing: 2pt;}
     width: 100%;
     }
 
-.social-networks{
-    text-align: left;
-    padding-top: 20px;
-    }
 
-.social-networks li{
-    display: inline;
-     padding-top: 20px;
-   
-      
-}
-
-.social-networks i{
-    font-size: 150%;
-    font-weight: 800;
-   
-    color: blue;
-}
 
 
 ul {
@@ -62,9 +55,8 @@ ul {
 
 .nav-link {
   display: inline;
-  font-weight: bold;
-  font-size: 150%;
-  font-family: Montserrat;
+    font-size: 120%;
+  font-family: 'Open Sans', sans-serif;
   color: black;
 }
 
@@ -122,3 +114,5 @@ text-align: left;}
 }
 
 .home-services p{font-size: 12pt;}
+
+#logo-accred {float:right;}
