@@ -7,6 +7,19 @@
 </style>
 
 
+
+
+#image-services {
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+#image-services img{
+ height: auto;
+ width: 400px;
+ align-content: center;
+margin-top: 20px; }
+
 body{
     font-family:Lato, sans-serif;}
 
@@ -36,11 +49,11 @@ p.home-pitch{
 span{letter-spacing: 2pt;}
 
 .top-contact-header {
-    font-family: Open-sans;
+    font-family:'Lato',sans-serif;
     margin-top: 0%;
     line-height: 2em;
     font-size: large;
-    text-align: right;
+    text-align: left;
     width: 100%;
     }
 
@@ -118,3 +131,7 @@ text-align: left;}
 #logo-accred {float:right;}
 
 .social-media {margin-top: 20px;}
+
+p.footer-right {padding-top: 20px;
+float: right;}
+

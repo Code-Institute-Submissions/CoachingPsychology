@@ -26,6 +26,7 @@ We would the site more easier to navigate on all devices
 
 Future Phases
 Include videos
+Resilience pages
 
 Testing
 Testing scenarios:
