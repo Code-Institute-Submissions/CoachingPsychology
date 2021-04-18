@@ -1,7 +1,18 @@
+
+The project brief:
+
+In this project, you’ll build a static front-end site to present useful information to
+users, using all the technologies that you have learned about so far using the following technologies 
+Required: HTML, CSS
+
+Optionally the project can include  Bootstrap and/or other CSS libraries/frameworks.
+
+
+
 # AlisonReadon
 New site for consultancy business
 
-Alison reardon require a new website for executive coaching consultancy business.   She already has a website www.coaching-psychology.co.uk
+the brief for the website was for a new  executive coaching consultancy business.   She already has a website www.coaching-psychology.co.uk
 However it does have usability problems and issues namely:
 
 1) It has has an Outdated Website Design 
