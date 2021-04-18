@@ -13,18 +13,33 @@
     height: 300px;
     width: 400px;
     overflow: hidden;
+    margin-top: 20 px;
 }
 #image-services img{
  height: auto;
  width: 400px;
  align-content: center;
+    margin-top: 20px; }
+
+#image-services iframe{
+ height: auto;
+ width: 400px;
+ align-content: center;
 margin-top: 20px; }
+
+#row-services{padding-top: 10px;
+border: black;}
+
+#row-services h1{text-align: center;}
+
+#text-services h1,p{text-align: center;
+    padding-top:20px;}
 
 body{
     font-family:Lato, sans-serif;}
 
 h1, h2 {font-family: 'Lato', sans-serif;
-    
+   
 }
 
 p{font-family: 'Lato', sans-serif;}
@@ -46,6 +61,15 @@ p.home-pitch{
    
 }
 
+
+
+#home-page-services {
+    text-align: center;
+
+}
+
+
+
 span{letter-spacing: 2pt;}
 
 .top-contact-header {
@@ -56,6 +80,11 @@ span{letter-spacing: 2pt;}
     text-align: right;
     width: 100%;
     }
+
+#row-footer{
+    top-margin: 20px;
+    text-align: right;
+}
 
 
 
