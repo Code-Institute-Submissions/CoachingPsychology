@@ -131,7 +131,7 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    width: 200px;  
+    width: 100%;  
 }
 
 #ali-image{
@@ -164,3 +164,8 @@ text-align: left;}
 p.footer-right {padding-top: 20px;
 float: right;}
 
+#footer-logos {display: inline;
+}
+
+#footer-logos img-rounded{padding-left: 50%;
+}
