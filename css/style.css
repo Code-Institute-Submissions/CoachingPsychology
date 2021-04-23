@@ -9,37 +9,11 @@
 
 
 
-#image-services {
-    height: 300px;
-    width: 400px;
-    overflow: hidden;
-    margin-top: 20 px;
-}
-#image-services img{
- height: auto;
- width: 400px;
- align-content: center;
-    margin-top: 20px; }
-
-#image-services iframe{
- height: auto;
- width: 400px;
- align-content: center;
-margin-top: 20px; }
-
-#row-services{padding-top: 10px;
-border: black;}
-
-#row-services h1{text-align: center;}
-
-#text-services h1,p{text-align: center;
-    padding-top:20px;}
-
 body{
     font-family:Lato, sans-serif;}
 
 h1, h2 {font-family: 'Lato', sans-serif;
-   
+  
 }
 
 p{font-family: 'Lato', sans-serif;}
@@ -49,29 +23,17 @@ p.italic{
     
 }
 
-p.home-pitch{
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 130%;
-vertical-align: middle;}
 
 .top-contact-style {
-    font-family: Open-sans;
+    font-family: 'Lato', sans-serif;
     line-height: 100px;
     width: 100%;
    
 }
-.services-style {font-family: Open-sans;
-    line-height: 100px;
-    width: 100%;}
 
 a span{
     text-align: center;}
 
-#home-page-services {
-    text-align: center;
-
-}
 
 
 
@@ -154,15 +116,36 @@ ul {
     padding-top: 100px;
     
 }
+<!--Services-->
 
+#image-services img{
+ height: auto;
+ width: 400px;
+ align-content: center;
+     }
 
-.home-services{margin-top:50px;
-text-align: left;}
-
-.home-services h2 {font-size: 16pt;
+#image-services iframe{
+ height: auto;
+ width: 400px;
+ align-content: center;
 }
 
-.home-services p{font-size: 12pt;}
+.services-style {font-family: 'Lato', sans-serif;
+       width: 100%;}
+
+#row-services h1{text-align: center;}
+
+#text-services h1,p{text-align: center;
+    }
+
+#home-page-services {
+    text-align: center;
+}
+
+.home-services{
+text-align: left;}
+
+
 
 #logo-accred {float:right;}
 
@@ -176,3 +159,9 @@ float: right;}
 
 #footer-logos img-rounded{padding-left: 50%;
 }
+
+p.home-pitch{
+    padding-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 130%;
+    vertical-align: middle;}
