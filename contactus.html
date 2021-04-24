@@ -57,33 +57,29 @@
 <p>Email: ali.reardon@coaching-psychology.co.uk</p>
 <p>Phone: 07123 456789</p>
 <p>or please complete the form below and we will get back you shortly</p>
-<label for="exampleFormControlInput1">Email address</label>
 </section>
-<form>
-  <div class="form-row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="First name">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Last name">
-    </div>
-  </div>
-</form>
+<div class="row">
+	<div class="col-sm-6 col-md-12 col-lg-6 col-xl-6 contact-form bg-light">
+		<form id="contactform">
+			<div class="form-group">
+				<label for="fname">First Name:</label>
+					<input name="firstname" type="text" class="form-control" id="fname"/>
+			</div>
+			<div class="form-group">
+				<label for="lastname">Last Name:</label>
+				<input name="lastname" type="text" class="form-control" id="lastname"/>
+            </div>
+            <div class="form-group">
+				<label for="Email">Email address:</label>
+					<input name="email" type="email" class="form-control" id="Email" />
+                            </div>
+            <div class="form-group">
+            <label for="message">Send us your message:</label> <textarea class="form-control" 
+                    name="message" form="contactform" id="message" cols="26" rows="8"></textarea>
+                           
+        </form>
+	</div>
+	</div>
+</div>
 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
 </body>
