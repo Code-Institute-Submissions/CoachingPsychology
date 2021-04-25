@@ -8,37 +8,20 @@
     <script src="https://kit.fontawesome.com/8b6969df5b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-<header>
-
-<div class = "container-fluid top-contact-style bg-light text-success">
-    <div class ="col-sm-12">
-        
-    <h2 class = "top-contact-header">Contact: ali.reardon@coaching-psychology.co.uk 07123 456789
-    <a href="https://www.linkedin.com/in/ali-reardon-5134759/" target="_blank"><i class="fab fa-linkedin-in"></i>
-    </a> </h2>
-     
-    </div>
- </div>
-
-<div class="container-fluid container-image-nav bg-light">
+<!-- Navigation Bar using Bootstrap -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" 
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <a class="navbar-brand nav-logo" href="index.html">
-                    <img src="images/Coaching-Psychology-logo-RGB-01.png" alt="Coaching Psychology logo" height="60" width="100"
-                        class="float-left">
-                </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <div class="container container-image-nav bg-light">
+        <a class="navbar-brand">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <a href="index.html" class="navbar-brand" aria-label="Company logo">Coaching Psychology
+            </a>
+            </div>
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
@@ -47,50 +30,43 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="aboutme.html">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link" href="service.html">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Get in Touch</a>
                         </li>
                     </ul>
-              </div>
-    </div>
-    
-</nav>
+                </div>
+                    <div class="nav-social-icons">
+                        <a href="https://www.linkedin.com/in/ali-reardon-5134759/" target="_blank"><i class="fab fa-linkedin-in"></i>                  
+                    </div>
+                </div>
+            </nav>
 
-
-</header>
-<section>
-<div class="container-fluid bg-light">
-  <div class="row">
-        <div class ="col-sm-12">
-<div class="container-fluid container-image-hero">
-  <div class="row">
-    <div class="col-sm-6" id= "hero-image">
+<!-- Home image section -->
+<section id="home-image">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-3">
+                       <img src="/images/Homepage.jpg" alt="Image of coaching" class="img-fluid">
+                </div>
+                <div class="col-sm-6">
+                        <p class ="home-pitch">I draw on business experience </p>
+                        <a class="btn btn-success btn-lg btn-block" href="contactus.html" role="button">Get in touch</a>
+                </div>
+            </div>
         </div>
-    <div class="col-sm-6 bg-light" id= "text-hero">
-       
-        
-        <p class ="home-pitch">We draw on business experience and psychological expertise to deliver powerful executive coaching programmes</p>
-      
-        <a class="btn btn-success btn-lg btn-block" href="contactus.html" role="button">Get in touch</a>
-    </div>
-</div>
-</div>
-  </div>
-</div>
-
-       
-</section>		
-        <div class="container margin-bottom-top">
-
+</section>
+<!-- Service section -->
+<section id = "services">
+  
+    <div class="container margin-bottom-top">
         <div class ="col-sm-12">
-
-       <div class="row row-services">
-       <div class="col-lg-4 col-md-8 col-sm-12 rounded"  id="home-page-services">
+           <div class="row row-services">
+           <div class="col-lg-4 col-md-8 col-sm-12 rounded"  id="home-page-services">
          <h2>1:1 Executive Coaching</h2>
          <p>Medium to long term programmes</p>
          <img src="/images/Executive coaching photo.webp" class="img-rounded" alt="executive coaching" width="304" height="236">
@@ -108,9 +84,9 @@
         <img src="/images/resilience.webp" class="img-rounded" alt="resilience" width="304" height="236">
                </div>
        
-  </div>
-  </div>
-</div>
+            </div>
+        </div>
+    </div>
   </div>
 </div>
 
