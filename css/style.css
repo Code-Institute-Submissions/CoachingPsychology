@@ -55,23 +55,13 @@ ul {
 }
 
 .container-image-hero {background-color: #FFFFFF;
-    width: 100%;
+
 }
 
 #nav-menu{
     background-color: #FFFFFF;
     width: 100%;
 }
-
-#logo-image{
-    background: url("../images/Coaching-Psychology-logo-RGB-01.png");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 150px;
-    height: 100px;
-    width: 300px;
-          }
 
 #hero-image{
     background-image: url("../images/Homepage.jpg");
@@ -101,8 +91,7 @@ ul {
     text-align: center;
     vertical-align: middle;
     text-size: large;
-    padding-top: 100px;
-    
+        
 }
 <!--Services-->
 
