@@ -1,7 +1,11 @@
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 </style>
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Global styles */
+
 * {
     margin:0;
     padding:0;
@@ -19,21 +23,14 @@ h1, h2 {font-family: 'Lato', sans-serif;
 
 p{font-family: 'Lato', sans-serif;}
 
-p.italic{
-    font-style: italic
-    
-}
-
-  
 
 
+/* Footer styles */
 
 #row-footer{
     top-margin: 20px;
     text-align: right;
 }
-
-
 
 
 ul {
@@ -42,27 +39,31 @@ ul {
   padding: 0;
 }
 
+/* Navigation styles */
+
+.navbar span{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  color: green;}
+
+
 .nav-link {
   display: inline;
-    font-size: 1.5em;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
   color: black;
 }
 
-.container-image-nav{
-    width: 100%;
-    background-color: #FFFFFF;
-}
-
-.container-image-hero {background-color: #FFFFFF;
+.nav-item {font-size: 1.2em;
+  font-family: 'Lato', sans-serif;
+  color: black;
 
 }
+.nav-social-icons i{font-size: 2em;
+  }
 
-#nav-menu{
-    background-color: #FFFFFF;
-    width: 100%;
-}
 
+/* Hero image */
 #hero-image{
     background-image: url("../images/Homepage.jpg");
     background-repeat: no-repeat;
@@ -74,11 +75,12 @@ ul {
 #home-image{
     width: 100%;
     height: 70%;
-    background-color: rgba(245, 153, 107, 0.2);
+    background-color:#FFFFFF;
     padding-top: 3rem;
 }
 
 
+/* About me page */
 #ali-image{
     background-image: url("../images/Alisonreardon.jpg");
     background-repeat: no-repeat;
@@ -87,14 +89,8 @@ ul {
     width: 200px;  
 }
 
-#text-hero{
-    text-align: center;
-    vertical-align: middle;
-    text-size: large;
-        
-}
-<!--Services-->
 
+/* Services Section on home pagee */
 #image-services img{
  height: auto;
  width: 400px;
@@ -112,6 +108,10 @@ ul {
 
 #row-services h1{text-align: center;}
 
+#row-services h2{text-align: center;
+font-size:1em;}
+
+
 #text-services h1,p{text-align: center;
     }
 
@@ -119,26 +119,25 @@ ul {
     text-align: center;
 }
 
+#home-page-services h2 {
+    font-size: 1.5em;
+}
+
+#home-page-services p {
+    font-size: 1em;
+}
 .home-services{
 text-align: left;}
 
-
-
-#logo-accred {float:right;}
-
-.social-media {margin-top: 20px;}
-
-p.footer-right {padding-top: 20px;
-float: right;}
+/* Footer section styles */
 
 #footer-logos {display: inline;
+float: right;}
+#footer-logos img-rounded{padding-right: 20%;
 }
 
-#footer-logos img-rounded{padding-left: 50%;
-}
+h5 {font-size: 1 em;
+font-style: italic;}
 
-p.home-pitch{
-    padding-top: 5%;
-    font-family: 'Lato', sans-serif;
-    font-size: 130%;
-    vertical-align: middle;}
+.footer-text-style{font-size: 0.8em;}
+
