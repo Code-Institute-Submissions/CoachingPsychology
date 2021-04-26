@@ -43,7 +43,7 @@ ul {
 
 .navbar-brand span{
   font-family: 'Lato', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 
@@ -54,7 +54,7 @@ ul {
   color: black;
 }
 
-.nav-item {font-size: 1.2em;
+.nav-item {font-size: 1.1 em;
   font-family: 'Lato', sans-serif;
   color: black;
 
@@ -149,7 +149,12 @@ font-style: italic;}
 
   /* Contact us page */
 
-  .jumbotron{
-    color: white;
-  text-align: center;
+.label{font-weight: 700;}
+
+.contact-style-p {text-align: left;}
+
+.services-section img {
+    
+    margin: auto;    
+    display: block;
 }
