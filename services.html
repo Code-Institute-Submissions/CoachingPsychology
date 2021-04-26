@@ -3,88 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coaching Psychology</title>
     <link href="/css/style.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/8b6969df5b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-<script src="semantic/dist/semantic.min.js"></script>
 </head>
 <body>
-<header>
-<div class="container-fluid container-image-nav bg-light">
-  <div class="row">
-        <div class ="col-sm-12">
-<div class = "container-fluid top-contact-style" style="background-color: rgba(0, 0, 0, 0.2);">
-<h2 class = "top-contact-header">Contact: ali.reardon@coaching-psychology.co.uk <br> 07123 456789
-    <a href="https://www.linkedin.com/in/ali-reardon-5134759/" target="_blank"><i class="fab fa-linkedin-in"></i>
-        </a></div>
-
-        </div></div></div>
-
-<div class="container-fluid container-image-nav bg-light">
-  <div class="row">
-        <div class ="col-sm-12">
-        <nav class="navbar navbar-expand-lg bg-light">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aboutme.html">ABOUT US</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="service.html">SERVICES</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="contactus.html">GET IN TOUCH</a>
-      </ul>
+<!-- Navigation section with the help of bootstrap and credit HTML and CSS Quick Start guide by David DuRocher-->
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <!-- The navbar-brand class used for the company name-->
+  <a class="navbar-brand" href="index.html">
+      <span>Coaching Psychology</span></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="MainNavbar">
+    <ul class="navbar-nav ml-auto">
+      <!-- ml auto aligned to the right -->
+        <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contactus.html" tabindex="-1">Get in Touch</a>
+        </li>
+    </ul>
 </div>
 </nav>
+<!-- Service page with 2 columns and 3 rows -->
+<div class="container text-center">
+    <div class="row pt-2">
+        <div class="col">
+            <img src="/images/Executive coaching photo.webp" alt="executive coaching" width="90%" height="90%" class="img-fluid">
         </div>
-  </div>
-</div>
-
-
-</header>
-<div class="container-fluid">
-  <div class="row" id="row-services">
-      <div class="col-sm-6 text-center p-1">
-        <img src="/images/Executive coaching photo.webp" class="img-rounded" alt="executive coaching" width="80%" height="80%">
-    </div>
-    <div class="col-sm-6 p-1" id="text=services">
-      <h1>Executive Coaching</h1>
+        <div class="col pt-2">
+            <h2 id="executive-coaching">Executive Coaching</h2
       <p>One-to-one coaching to grow key talent . Programmes are typically 6-12 months. Executive Coaching supports individuals with:
 Personal change (e.g. confidence, impact, influencing, conflict)
 A specific role or situation (e.g. on-boarding, business growth, return from maternity, succession planning, feeling overwhelmed with work)</p>
-    </div>
-    </div>
-   
-    <div class="row" id="row-services">
-        <div class="col-sm-6 text-center p-1"> <img src="/images/groupcoaching.jpeg" class="img-rounded" alt="group coaching" width="80%" height="80%">
         </div>
-    <div class="col-sm-6 p-1" id="text=services">
-      <h1>Group programmes</h1>
+    <div class="row pt-2">
+        <div class="col">
+            <img src="/images/groupcoaching.jpeg" alt="group programme" width="90%" height="90%" class="img-fluid">
+        </div>
+        <div class="col pt-2">
+            <h2 id="group-programme">Group programmes</h2>
         <p>Team coaching 
             The coach works with an intact team to support them in many possible ways – e.g. clarifying priorities, understanding & developing the team dynamic, managing conflict, maximising the contribution of each member, improving communications, enhancing innovation etc.
         </p>
         <p>Action-learning
         Employees come together in groups of 6-8 over a period of several months to present their work challenges, reflect on them and then take action which they learn from. The group offers support, observation and a structure to work things through. Valuable if you have a group who could benefit from improving problem solving, or you wish to support  employees with day-to-day challenges?
         </p>
-    </div>
-</div>
-<div class="row" id="row-services">
-    <div class="col-sm-6 text-center p-1">
-       <img src="/images/resilience.webp" class="img-rounded" alt="group coaching" width="80%" height="80%">
-        </div> 
-      </div>
-    <div class="col-sm-6 text center p-1" id="text=services">
-        <h1>Resilience Coaching </h1>
+        </div>
+        
+    <div class="row pt-2">
+        <div class="col">
+            <img src="/images/Resilience.jpg" class="img-rounded" alt="group coaching" width="80%" height="80%">
+         
+        </div>
+        <div class="col pt-2">
+            <h2 id="resilience">Resilience Coaching </h2>
             <p>Supporting people at work through the COVID crisis
 
                 A bespoke offer of single session coaching, providing thinking space, psychological support and practical strategies to help people at work manage the unique challenges of the Covid crisis
@@ -92,15 +77,37 @@ A specific role or situation (e.g. on-boarding, business growth, return from mat
                 "Resilience is about how you recharge, not how you endure" 
                 (Achor and Gielan, Harvard Business Review). 
             </p>
+        </div>
+
+    </div>
+      <!-- Footer section -->
+
+
+<footer class="bg-light text-center">
+    <div class="p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5>Privacy Statement</h5>
+        <p class ="footer-text-style">
+          Here at Coaching Psychology Ltd, we take your privacy very seriously and will only use the information you provide here to provide the services or information you have requested.
+        </p>
+    <!-- credit to https://hollypryce.com/social-media-icons/ for helping with this -->
+    <div class="social-media-icons">
+        <a href="https://twitter.com" class="fab fa-twitter"></a>
+        <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+        <a href="https://www.linkedin.com/in/ali-reardon-5134759/" class="fab fa-linkedin"></a>
+        <a href="tel:07530 202876"> <i class="fas fa-phone"></i></a>
+    </div>
       </div>
-
-</div>
-
-<footer>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">Coaching Pyschology</a>
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5>Accreditation</h5>
+        <span id ="footer-logos">
+        <img src="/images/AccreditedMastExeCoach12+(002)-110w.webp" class="img-rounded" alt="resilience" width="80" height="80">
+        <img src="/images/BritishPsylogo.jpg" class="img-rounded" alt="british psychology logo" width="80" height="80">
+        </span>
+      </div>
+     
+    </div>
+    >
   </div>
-</footer>
-
-</body>
+  </body>

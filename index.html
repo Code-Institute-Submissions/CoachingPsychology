@@ -10,103 +10,86 @@
 <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 </head>
 <body>
-<!-- Navigation Bar using Bootstrap -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container container-image-nav bg-light">
-         <div class="collapse navbar-collapse">
-            <a href="index.html" class="navbar" aria-label="Company logo"><span>Coaching Psychology</span>
-            </a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutme.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="service.html">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Get in Touch</a>
-                        </li>
-                    </ul>
-                </div>
-                    <div class="nav-social-icons">
-                        <a href="https://www.linkedin.com/in/ali-reardon-5134759/" target="_blank"><i class="fab fa-linkedin-in"></i>                  
-                    </div>
-                </div>
-            </nav>
-
-<!-- Home image section -->
-
-<section id="home-image">
-        
-            <div class ="col-sm-12">
-            <div class="row">
-                <div class="col-12 col-lg-6">
-                       <img src="/images/Homepage.jpg" alt="Image of coaching" class="img-fluid">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <br>
-                        <p>I draw on business experience </p>
-                        <a class="btn btn-success btn-block" href="contactus.html" role="button">Get in touch</a>
-                </div>
-            </div>
-        
+<!-- Navigation section with the help of bootstrap and credit HTML and CSS Quick Start guide by David DuRocher-->
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <!-- The navbar-brand class used for the company name-->
+  <a class="navbar-brand" href="index.html">
+      <span>Coaching Psychology</span></a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="MainNavbar">
+    <ul class="navbar-nav ml-auto">
+      <!-- ml auto aligned to the right -->
+        <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contactus.html" tabindex="-1">Get in Touch</a>
+        </li>
+    </ul>
+</div>
+</nav>
+<!-- Container for 2 sections: Main image and Home service section-->
+<div class="container text-center">
+    <!-- This row has two columns for home page image and main elevator text -->
+    <div class="row pt-2">
+        <div class="col">
+            <img src="/images/Homepage.jpg" alt="Image of coaching" class="img-fluid">
         </div>
-</section>
-<!-- Service section -->
-<section id = "services">
-     <div class="margin-bottom-top">
-        <div class ="col-sm-12">
-           <div class="row row-services">
-           <div class="col-lg-4 col-md-8 col-sm-12 rounded"  id="home-page-services">
-         <h2>1:1 Executive Coaching</h2>
-         <p>Medium to long term programmes</p>
-         <img src="/images/Executive coaching photo.webp" class="img-rounded" alt="executive coaching" width="304" height="236">
-       </div>
-       
-       <div class="col-lg-4 col-md-8 col-sm-12 rounded" id="home-page-services">
-         <h2>Group Programmes</h2>
-         <p>Team coaching and action-learning </p>
-         <img src="/images/groupcoaching.jpeg" class="img-rounded" alt="group coaching" width="304" height="236">
-       </div>
-       
-       <div class="col-lg-4 col-md-8 col-sm-12 rounded" id="home-page-services">
-        <h2>Resilience Coaching</h2>
-        <p>Coaching through the Covid crisis</p>
-        <img src="/images/Resilience.jpg" class="img-rounded" alt="resilience" width="304" height="236">
-               </div>
-       
-            </div>
+        <div class="col pt-5">
+            <h2>Be the best you can be</h2>
+	        <p>We draw on business experience and psychological expertise to deliver powerful executive coaching programmes </p>
+                        <a class="btn btn-success btn-block" href="contactus.html" role="button">Get in touch</a>
         </div>
     </div>
-  </div>
+    <!-- This row has three columns for the services sectons of the home-page --> 
+    <div class="row pt-4">
+        <div class="col">
+            <h2>1:1 Executive Coaching</h2>
+         <p>Medium to long term programmes</p>
+         <a href="services.html#executive-coaching"><img src="/images/Executive coaching photo.webp" class="img-rounded" alt="executive coaching" width="304" height="236">
+        </a></div>
+        <div class="col">
+	        <h2>Group Programmes</h2>
+         <p>Team coaching and action-learning </p>
+         <a href="services.html#group-programme"><img src="/images/groupcoaching.jpeg" class="img-rounded" alt="group coaching" width="304" height="236">
+        </a></div>
+	   <div class="col">
+	        <h2>Resilience Coaching</h2>
+        <p>Coaching through the Covid crisis</p>
+        <a href="services.html#resilience"><img src="/images/Resilience.jpg" class="img-rounded" alt="resilience" width="304" height="236">
+        </a></div>
+    </div>
 </div>
 
-</section>
-
-
-            <!-- Footer section -->
+           <!-- Footer section -->
 
 
 <footer class="bg-light text-center">
-    <div class="p-2">
+    <div class="p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5>Privacy Statement</h5>
         <p class ="footer-text-style">
           Here at Coaching Psychology Ltd, we take your privacy very seriously and will only use the information you provide here to provide the services or information you have requested.
         </p>
+    <!-- credit to https://hollypryce.com/social-media-icons/ for helping with this -->
+    <div class="social-media-icons">
+        <a href="https://twitter.com" class="fab fa-twitter"></a>
+        <a href="https://facebook.com" class="fab fa-facebook-f"></a>
+        <a href="https://www.linkedin.com/in/ali-reardon-5134759/" class="fab fa-linkedin"></a>
+        <a href="tel:07530 202876"> <i class="fas fa-phone"></i></a>
+    </div>
       </div>
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
         <h5>Accreditation</h5>
         <span id ="footer-logos">
         <img src="/images/AccreditedMastExeCoach12+(002)-110w.webp" class="img-rounded" alt="resilience" width="80" height="80">
@@ -117,13 +100,5 @@
     </div>
     >
   </div>
- 
 
-  
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">Coaching Pyschology</a>
-  </div>
-</footer>  
 </body>
-</html>
