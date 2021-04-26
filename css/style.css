@@ -59,9 +59,7 @@ ul {
   color: black;
 
 }
-.nav-social-icons i{font-size: 2em;
-    
-  }
+
 
 
 /* Hero image */
@@ -133,12 +131,18 @@ text-align: left;}
 /* Footer section styles */
 
 #footer-logos {display: inline;
-float: right;}
-#footer-logos img-rounded{padding-right: 20%;
-}
+float: right;
+margin-right: 50px}
+
+
 
 h5 {font-size: 1 em;
 font-style: italic;}
 
 .footer-text-style{font-size: 0.8em;}
 
+.social-media-icons a{font-size: 2em;
+    margin: 0 10px 0 0;
+    color: #000000;
+    text-decoration: none;   
+  }
