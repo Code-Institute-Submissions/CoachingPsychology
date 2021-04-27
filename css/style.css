@@ -147,27 +147,21 @@ font-style: italic;}
     text-decoration: none;   
   }
 
-  /* Contact us page */
+/* Services page styling */
+
+.services-section img{
+    margin: auto;    
+    display: block;
+    box-shadow: 0 px 3px 5px #444;
+}
+
+
+
+  /* Contact us page styling*/
 
 .label{font-weight: 700;}
 
 .contact-style-p {text-align: left;}
 
-.services-section img {
-    
-    margin: auto;    
-    display: block;
-}
-#linear-gradient {
-    width: 500px;
-    height: 150px;
-    background-color: black;
-    background-image: linear-gradient(black, white); 
-}
 
-#linear-gradient p {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 150px;
-    color: white;
-}
+    
