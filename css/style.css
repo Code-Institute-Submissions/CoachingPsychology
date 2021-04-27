@@ -162,3 +162,15 @@ font-style: italic;}
     text-align: right;
 }
 
+.hero-home {
+    background-image: url(/images/Ladder\ medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.home-spacing {
+    margin: 32px 0;
+}
