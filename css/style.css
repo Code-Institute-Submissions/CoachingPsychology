@@ -14,23 +14,15 @@
 
 body{
     font-family:Lato, sans-serif;
- font-size: 1rem;
+    font-size: 1rem;
 }
 
-h1, h2 {font-family: 'Lato', sans-serif;
-  
+h1, h2 
+{font-family: 'Lato', sans-serif;
+
 }
 
 p{font-family: 'Lato', sans-serif;}
-
-
-
-/* Footer styles */
-
-#row-footer{
-    top-margin: 20px;
-    text-align: right;
-}
 
 
 ul {
@@ -155,8 +147,6 @@ font-style: italic;}
     box-shadow: 0 px 3px 5px #444;
 }
 
-
-
   /* Contact us page styling*/
 
 .label{font-weight: 700;}
@@ -165,3 +155,10 @@ font-style: italic;}
 
 
     
+/* Footer styles */
+
+#row-footer{
+    top-margin: 20px;
+    text-align: right;
+}
+
