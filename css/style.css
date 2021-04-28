@@ -180,7 +180,7 @@ font-style: italic;}
 
 .lesson-promo-video-iframe {
 	width: 88vw;
-	height: 49.5vw;
+	height: 30vw;
 	display: block;
 	margin: 0 auto;
 	border: 0;
@@ -188,6 +188,24 @@ font-style: italic;}
 }
 
 .promo-video-container {
-	padding: 15vw 0;
+	padding: 5vw 0;
+}
+
+.selection-div {
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(182, 215, 168, .7);
+    border-radius: 25px;
+    display: inline-block;
+    border-color: #050505;
+}
+
+.selection-div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
 }
 
