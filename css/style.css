@@ -173,31 +173,34 @@ font-style: italic;}
 
 .home-spacing {
     margin: 150px 0;
-
-    font-size: 1.4em;
+    font-size: 1.5em;
+    font-weight:700;
+    color: #fff;
 }
 /*--------------------------------------- Promo Video Section */
 
-.lesson-promo-video-iframe {
-	width: 88vw;
+.video-iframe {
+	width: 60vw;
 	height: 30vw;
 	display: block;
 	margin: 0 auto;
-	border: 0;
+	border-style: solid;
 	overflow: hidden;
 }
 
-.promo-video-container {
+.video-container {
 	padding: 5vw 0;
 }
 
 .selection-div {
     margin-left: 10%;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
     width: 200px;
     height: 200px;
     border-color: #050505;
 }
 .text-services-section h4{font-size: 1em;}
-.text-services-section p{font-size: 0.8em;}
+.text-services-section p{font-size: 0.8em; 
+text-align: left;}
+.video-heading-text {text-align: center;}
