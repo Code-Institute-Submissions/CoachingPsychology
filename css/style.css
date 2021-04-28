@@ -81,7 +81,7 @@ ul {
 }
 
 
-/* Services Section on home pagee */
+/* Services Section on home page */
 #image-services img{
  height: auto;
  width: 400px;
@@ -173,7 +173,7 @@ font-style: italic;}
 
 .home-spacing {
     margin: 150px 0;
-    color: #FFFFFF;
+
     font-size: 1.4em;
 }
 /*--------------------------------------- Promo Video Section */
@@ -197,15 +197,7 @@ font-style: italic;}
     margin-bottom: 30px;
     width: 200px;
     height: 200px;
-    background-color: rgba(182, 215, 168, .7);
-    border-radius: 25px;
-    display: inline-block;
     border-color: #050505;
 }
-
-.selection-div img {
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
-}
-
+.text-services-section h4{font-size: 1em;}
+.text-services-section p{font-size: 0.8em;}
