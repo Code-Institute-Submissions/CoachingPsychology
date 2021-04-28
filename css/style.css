@@ -168,9 +168,11 @@ font-style: italic;}
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .home-spacing {
-    margin: 32px 0;
+    margin: 150px 0;
+    color: #FFFFFF;
+    font-size: 1.4em;
 }
