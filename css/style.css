@@ -176,3 +176,18 @@ font-style: italic;}
     color: #FFFFFF;
     font-size: 1.4em;
 }
+/*--------------------------------------- Promo Video Section */
+
+.lesson-promo-video-iframe {
+	width: 88vw;
+	height: 49.5vw;
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	overflow: hidden;
+}
+
+.promo-video-container {
+	padding: 15vw 0;
+}
+
