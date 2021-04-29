@@ -1,8 +1,7 @@
-
+/* Imported styles */
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 </style>
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /* Global styles */
 
@@ -11,25 +10,22 @@
     padding:0;
     border:0;
 }
-
 body{
     font-family:Lato, sans-serif;
     font-size: 1rem;
 }
 
-h1, h2 
-{font-family: 'Lato', sans-serif;
+h1, h2 {font-family: 'Lato', sans-serif;
 
 }
+
+h5 {font-size: 1 em;
+font-style: italic;}
+
 
 p{font-family: 'Lato', sans-serif;}
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 /* Navigation styles */
 
@@ -49,12 +45,10 @@ ul {
 .nav-item {font-size: 1.1 em;
   font-family: 'Lato', sans-serif;
   color: black;
-
 }
 
-
-
 /* Hero image */
+
 #hero-image{
     background-image: url("../images/Homepage.jpg");
     background-repeat: no-repeat;
@@ -63,13 +57,12 @@ ul {
     width: 100%;  
 }
 
-#home-image{
-    width: 100%;
-    height: 70%;
-    background-color:#FFFFFF;
-    padding-top: 3rem;
+.home-spacing{
+    margin: 150px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
 }
-
 
 /* About me page */
 #ali-image{
@@ -81,56 +74,11 @@ ul {
     width: 200px;  
 }
 
-
-/* Services Section on home page */
-#image-services img{
- height: auto;
- width: 400px;
- align-content: center;
-     }
-
-#image-services iframe{
- height: auto;
- width: 400px;
- align-content: center;
-}
-
-.services-style {font-family: 'Lato', sans-serif;
-       width: 100%;}
-
-#row-services h1{text-align: center;}
-
-#row-services h2{text-align: center;
-font-size:1em;}
-
-
-#text-services h1,p{text-align: center;
-    }
-
-#home-page-services {
-    text-align: center;
-}
-
-#home-page-services h2 {
-    font-size: 1.5em;
-}
-
-#home-page-services p {
-    font-size: 1em;
-}
-.home-services{
-text-align: left;}
-
 /* Footer section styles */
 
 #footer-logos {display: inline;
 float: right;
 margin-right: 50px}
-
-
-
-h5 {font-size: 1 em;
-font-style: italic;}
 
 .footer-text-style{font-size: 0.8em;}
 
@@ -138,7 +86,7 @@ font-style: italic;}
     margin: 0 10px 0 0;
     color: #000000;
     text-decoration: none;   
-  }
+}
 
 /* Services page styling */
 
@@ -148,30 +96,40 @@ font-style: italic;}
     box-shadow: 0 px 3px 5px #444;
 }
 
-  /* Contact us page styling*/
+.text-services-section h4{
+    font-size: 1em;}
+
+.text-services-section p{
+    font-size: 0.8em; 
+    text-align: left;}
+
+
+/* Contact us page styling*/
 
 .label{font-weight: 700;}
-
 .contact-style-p {text-align: left;}
 
 
-    
-/* Footer styles */
+/*--------------------------------------- You tube video Section */
 
-#row-footer{
-    top-margin: 20px;
-    text-align: right;
-}
-.home-spacing{
-    margin: 150px 0;
-    font-size: 1.5em;
-    font-weight: 700;
-    color: #fff;
+.video-iframe {
+	width: 60%;
+	height: 120%;
+	display: block;
+	margin: 0 auto;
+	border-style: solid;
+	overflow: hidden;
 }
 
+.video-container {
+	padding: 5vw 0;
+}
+
+.video-heading-text {text-align: center;}
 
 
-@media only screen and (min-width: 480px) {
+/* Media queries for home page image */
+@media only screen and (min-width: 300px) {
 .hero-home {
     background-image: url(/images/ladder\ small.jpg);
     background-position: center;
@@ -193,31 +151,3 @@ font-style: italic;}
   }
 }
 
-
-/*--------------------------------------- You tube video Section */
-
-.video-iframe {
-	width: 60vw;
-	height: 30vw;
-	display: block;
-	margin: 0 auto;
-	border-style: solid;
-	overflow: hidden;
-}
-
-.video-container {
-	padding: 5vw 0;
-}
-
-.selection-div {
-    margin-left: 10%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    width: 200px;
-    height: 200px;
-    border-color: #050505;
-}
-.text-services-section h4{font-size: 1em;}
-.text-services-section p{font-size: 0.8em; 
-text-align: left;}
-.video-heading-text {text-align: center;}
