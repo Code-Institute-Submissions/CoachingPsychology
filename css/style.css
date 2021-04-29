@@ -76,6 +76,7 @@ ul {
     background-image: url("../images/Alisonreardon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
     height: 600px;
     width: 200px;  
 }
@@ -161,23 +162,39 @@ font-style: italic;}
     top-margin: 20px;
     text-align: right;
 }
+.home-spacing{
+    margin: 150px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+}
 
+
+
+@media only screen and (min-width: 480px) {
 .hero-home {
-    background-image: url(/images/Ladder\ medium.jpg);
+    background-image: url(/images/Group\ small.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 80vh;
 }
-
-.home-spacing {
-    margin: 150px 0;
-    font-size: 1.5em;
-    font-weight:700;
-    color: #fff;
 }
-/*--------------------------------------- Promo Video Section */
+
+@media only screen and (min-width: 768px) {
+    .hero-home
+    {background-image: url(/images/Ladder\ medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;}
+  }
+}
+
+
+/*--------------------------------------- You tube video Section */
 
 .video-iframe {
 	width: 60vw;
