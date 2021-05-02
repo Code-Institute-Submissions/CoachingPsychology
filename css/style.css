@@ -49,13 +49,7 @@ p{font-family: 'Lato', sans-serif;}
 
 /* Hero image */
 
-#hero-image{
-    background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/Homepage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 100%;  
-}
+
 
 .home-spacing{
     margin: 150px 0;
@@ -131,7 +125,7 @@ margin-right: 50px}
 /* Media queries for home page image */
 @media only screen and (min-width: 300px) {
 .hero-home {
-    background-image: url(/images/ladder\ small.jpg);
+    background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/images/ladder\ small.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,7 +136,7 @@ margin-right: 50px}
 
 @media only screen and (min-width: 768px) {
     .hero-home
-    {background-image: url(/images/Ladder\ medium.jpg);
+    {background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/Ladder\ medium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
