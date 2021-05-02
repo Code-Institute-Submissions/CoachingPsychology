@@ -50,7 +50,7 @@ p{font-family: 'Lato', sans-serif;}
 /* Hero image */
 
 #hero-image{
-    background-image: url("../images/Homepage.jpg");
+    background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/Homepage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
