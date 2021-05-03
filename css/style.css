@@ -92,13 +92,21 @@ margin-right: 50px}
 .contact-style-p {text-align: left;}
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-home {
+    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddersmall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 40vh;}
+}
 
-
-/* Media queries for home page image */
-
-@media only screen and (min-width: 300px) {
-.hero-home {
-    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/ladder\ small.jpg");
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero-home {
+    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddersmall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -107,14 +115,41 @@ margin-right: 50px}
 }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .hero-home {
+    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddermedium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
     .hero-home
-    {background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Ladder\ medium.jpg");
+    {background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddermedium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 80vh;}
   }
-}
+ 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .hero-home
+    {background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Ladderlarge.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;}
+  }
+
+
 
