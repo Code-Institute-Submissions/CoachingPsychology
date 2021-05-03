@@ -92,28 +92,13 @@ margin-right: 50px}
 .contact-style-p {text-align: left;}
 
 
-/*You tube video section on services page */
-
-.video-iframe {
-	width: 60%;
-	height: 120%;
-	display: block;
-	margin: 0 auto;
-	border-style: solid;
-	overflow: hidden;
-}
-
-.video-container {
-	padding: 5vw 0;
-}
-
-.video-heading-text {text-align: center;}
 
 
 /* Media queries for home page image */
+
 @media only screen and (min-width: 300px) {
 .hero-home {
-    background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/ladder\ small.jpg");
+    background-image:url(https://leliarkelly.github.io/CoachingPsychology/images/ladder\ small.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,7 +109,7 @@ margin-right: 50px}
 
 @media only screen and (min-width: 768px) {
     .hero-home
-    {background-image: url("https://leliarkelly.github.io/CoachingPsychology/images/Ladder\ medium.jpg");
+    {background-image: url(https://leliarkelly.github.io/CoachingPsychology/images/Ladder\ medium.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

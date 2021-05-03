@@ -59,15 +59,18 @@ The site has an embedded at the top of the services page.
 <h2>Testing</h2>
 Following the build of the website the following tests were completed
 TestID	Description	Results	Comments
-1	Check all the links are working ok between different pages	Passed	
-2	Check fonts	Passed	Feedback to increase font size on Services page.  Add to backlog
-3	Check all images and text are alignment correctly	Passed	Reduce gap between images and text on Service page. Add to backlog.
-4	Check for spelling mistakes	Passed	
-5	Check on mobile device	Passed	
-6	Check on tablet device	Passed	
-7	Check on desktop device	Passed	
-8	Complete W3C HTML Validator Passed	
-9	Complete W3C CSS Validator	Passed	
+
+
+1	Check all the links are working ok between different pages	Passed	<br>
+2	Check fonts	Passed.	Comment: Increase font size on Services page.  Add to backlog <br>
+3	Check all images and text are alignment correctly	Passed.  Comment: Reduce gap between images and text on Service page. Add to backlog.<br>
+4	Check for spelling mistakes	Passed	<br>
+5	Check on mobile device	Failed	  Comment: Agreed we would remove video from live site and resolve during next sprint. <br>
+6	Check on tablet device	Passed	<br>
+7	Check on desktop device	Passed	<br>
+8	Complete W3C HTML Validator Passed	<br>
+9	Complete W3C CSS Validator	Passed	<br>
+
 
 <h2>Live Release</h2>
 
@@ -78,9 +81,10 @@ Following a show and tell session the customer signed off the new website and ag
 When planning for each sprint it was difficult to estimate how long each piece of development would take.
 As a developer I got side tracked while developing the site on features that were not in the initial brief.  
 
-I was still learning while in development which added time it took to develop the website.  I am confident as I develop this website and other I will be able speed the time it takes to develop this website.
+I was still learning while in development which added time it took to develop the website.  I am confident as I develop this website and others I will be able to improve on the amount of work that gets done and released.
+
+We deployed for testing and the majority of test passed except the video on the service pages which did not look great on different devices.   So we decided to remove video styling as we were unable to fix the responsiveness of the video and save for a future release
 
 Ali Reardon was very happy with the final website and feels positive about the further website developments we have planned in future sprints.
-
 
 

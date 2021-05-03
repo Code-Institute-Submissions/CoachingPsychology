@@ -1,0 +1,29 @@
+<!--Video Container for Resilience video-->
+
+<div class="container">
+         <div class="row text-center">
+            <div class="col-12 video-container">
+                <h2>Resilience from Covid</h2>  
+                <iframe class="video-iframe" src="https://www.youtube.com/embed/7Mtc9mYWkpo" width="100%" controls autoplay muted> </iframe>
+            </div>
+        </div>
+    </div>
+
+css code for video
+
+/*You tube video section on services page */
+
+.video-iframe {
+	width: 60%;
+	height: 60vh;
+	display: block;
+	margin: 0 auto;
+	border-style: solid;
+	overflow: hidden;
+}
+
+.video-container {
+	padding: 5vw 0;
+}
+
+.video-heading-text {text-align: center;}
