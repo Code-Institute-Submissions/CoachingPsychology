@@ -47,9 +47,7 @@ p{font-family: 'Lato', sans-serif;}
   color: black;
 }
 
-/* Hero image */
-
-
+/* Welcome message on home page */
 
 .home-spacing{
     margin: 150px 0;
@@ -94,7 +92,7 @@ margin-right: 50px}
 .contact-style-p {text-align: left;}
 
 
-/*--------------------------------------- You tube video Section */
+/*You tube video section on services page */
 
 .video-iframe {
 	width: 60%;
