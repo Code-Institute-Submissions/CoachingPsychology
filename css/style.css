@@ -48,22 +48,19 @@ p{font-family: 'Lato', sans-serif;}
 }
 
 /* Homepage hero image */
-
-.hero-home {
-    max-height:100%;
-    width:100%;
-    margin:0;
-    padding:0;
-    background: url(/images/laddermedium.jpg) no-repeat center center;
-    
-    
-}
+ .hero-home
+    {background-image: url(/images/laddermedium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;}
 
 
 /* Welcome message on home page */
 
 .home-spacing{
-    margin: 150px 0;
+    margin: 120px;
     font-size: 1.5em;
     font-weight: 700;
     color: #fff;
