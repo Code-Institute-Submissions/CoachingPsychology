@@ -49,12 +49,13 @@ p{font-family: 'Lato', sans-serif;}
 
 /* Homepage hero image */
 
-.hero-home{
+.hero-home {
     max-height:100%;
     width:100%;
     margin:0;
-    background-image: url(images/laddermedium.jpg);
     padding:0;
+    background: url(/images/laddermedium.jpg) no-repeat center center;
+    
     
 }
 
