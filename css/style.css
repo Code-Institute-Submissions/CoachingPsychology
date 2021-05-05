@@ -47,6 +47,17 @@ p{font-family: 'Lato', sans-serif;}
   color: black;
 }
 
+/* Homepage hero image */
+
+.hero-home {
+    background-image:url("../images/Laddersmall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 40vh;
+}
+
 /* Welcome message on home page */
 
 .home-spacing{
@@ -95,7 +106,7 @@ margin-right: 50px}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .hero-home {
-    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddersmall.jpg");
+    background-image:url("../images/Laddersmall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +117,7 @@ margin-right: 50px}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .hero-home {
-    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddersmall.jpg");
+    background-image:url("../images/Laddersmall.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,7 +129,7 @@ margin-right: 50px}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .hero-home {
-    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddermedium.jpg");
+    background-image:url("../images/Laddermedium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +142,7 @@ margin-right: 50px}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .hero-home
-    {background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddermedium.jpg");
+    {background-image:url("../images/Laddermedium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,7 +154,7 @@ margin-right: 50px}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hero-home
-    {background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Ladderlarge.jpg");
+    {background-image:url("../images/Ladderlarge.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
