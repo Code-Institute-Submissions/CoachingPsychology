@@ -47,8 +47,7 @@ p{font-family: 'Lato', sans-serif;}
   color: black;
 }
 
-/* Homepage hero image */
- .hero-home
+.hero-home
     {background-image: url("/images/laddermedium.jpg");
     background-position: center;
     background-repeat: no-repeat;
