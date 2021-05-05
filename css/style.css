@@ -50,7 +50,7 @@ p{font-family: 'Lato', sans-serif;}
 /* Homepage hero image */
 
 .hero-home{
-    background-image: url(images/laddermedium.jpg);
+    background-image: url("images/laddermedium.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
