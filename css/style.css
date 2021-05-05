@@ -50,12 +50,12 @@ p{font-family: 'Lato', sans-serif;}
 /* Homepage hero image */
 
 .hero-home{
-    background-image: url("images/laddermedium.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    position: relative
+    max-height:100%;
+    width:100%;
+    margin:0;
+    background-image:url("images/laddermedium.jpg");
+    padding:0;
+    
 }
 
 
