@@ -50,13 +50,14 @@ p{font-family: 'Lato', sans-serif;}
 /* Homepage hero image */
 
 .hero-home{
-    background-image:url("https://leliarkelly.github.io/CoachingPsychology/images/Laddermedium.jpg");
+    background-image:url(../images/laddermedium.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 40vh;
+    position: relative
 }
+
 
 /* Welcome message on home page */
 
